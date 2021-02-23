@@ -41,6 +41,9 @@ path: /testrequest ,
 base_url: http://192.168.1.183:5000/testrequest , 
 url_root : http://192.168.1.183:5000/
 '''
+
+
+```
 7、date、files：date是请求的数据，files随请求上传的文件
 ```
 @app.route('/upload',methods=['GET','POST'])
